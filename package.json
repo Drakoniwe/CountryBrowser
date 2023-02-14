@@ -2,7 +2,7 @@
   "name": "country-browser",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://drakoniwe.github.io/CountryBrowser/)",
+  "homepage": "https://drakoniwe.github.io/CountryBrowser",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.4.0",
