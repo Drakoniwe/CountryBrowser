@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "C:/Program Files/Git/public/static/css/main.6251e72e.css",
-    "main.js": "C:/Program Files/Git/public/static/js/main.cfdabf86.js",
-    "static/media/magnifying-glass.svg": "C:/Program Files/Git/public/static/media/magnifying-glass.5f459669ebc96de55835.svg",
-    "index.html": "C:/Program Files/Git/public/index.html",
-    "main.6251e72e.css.map": "C:/Program Files/Git/public/static/css/main.6251e72e.css.map",
-    "main.cfdabf86.js.map": "C:/Program Files/Git/public/static/js/main.cfdabf86.js.map"
+    "main.css": "/CountryBrowser/static/css/main.485b94e8.css",
+    "main.js": "/CountryBrowser/static/js/main.cfdabf86.js",
+    "static/media/magnifying-glass.svg": "/CountryBrowser/static/media/magnifying-glass.5f459669ebc96de55835.svg",
+    "index.html": "/CountryBrowser/index.html",
+    "main.485b94e8.css.map": "/CountryBrowser/static/css/main.485b94e8.css.map",
+    "main.cfdabf86.js.map": "/CountryBrowser/static/js/main.cfdabf86.js.map"
   },
   "entrypoints": [
-    "static/css/main.6251e72e.css",
+    "static/css/main.485b94e8.css",
     "static/js/main.cfdabf86.js"
   ]
 }
