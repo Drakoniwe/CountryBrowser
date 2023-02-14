@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "C:/Program Files/Git/CountryBrowser/static/css/main.f8653f7a.css",
-    "main.js": "C:/Program Files/Git/CountryBrowser/static/js/main.cfdabf86.js",
-    "static/media/magnifying-glass.svg": "C:/Program Files/Git/CountryBrowser/static/media/magnifying-glass.5f459669ebc96de55835.svg",
-    "index.html": "C:/Program Files/Git/CountryBrowser/index.html",
-    "main.f8653f7a.css.map": "C:/Program Files/Git/CountryBrowser/static/css/main.f8653f7a.css.map",
-    "main.cfdabf86.js.map": "C:/Program Files/Git/CountryBrowser/static/js/main.cfdabf86.js.map"
+    "main.css": "C:/Program Files/Git/public/static/css/main.6251e72e.css",
+    "main.js": "C:/Program Files/Git/public/static/js/main.cfdabf86.js",
+    "static/media/magnifying-glass.svg": "C:/Program Files/Git/public/static/media/magnifying-glass.5f459669ebc96de55835.svg",
+    "index.html": "C:/Program Files/Git/public/index.html",
+    "main.6251e72e.css.map": "C:/Program Files/Git/public/static/css/main.6251e72e.css.map",
+    "main.cfdabf86.js.map": "C:/Program Files/Git/public/static/js/main.cfdabf86.js.map"
   },
   "entrypoints": [
-    "static/css/main.f8653f7a.css",
+    "static/css/main.6251e72e.css",
     "static/js/main.cfdabf86.js"
   ]
 }
