@@ -1,0 +1,20 @@
+.CountryCard {
+  background-color: var(--color-gray);
+  background-color: var(--color-white);
+  margin-block: 40px;
+  border-radius: 5px;
+  box-shadow: 0 0 10px -3px var(--color-gray);
+  max-width: 350px;
+
+  &-Flag {
+    border-radius: 5px 5px 0 0;
+    width: 100%;
+    border-bottom: 1px solid var(--color-gray);
+  }
+
+  &-Info {
+    padding-inline: 20px;
+    padding-bottom: 40px;
+    font-weight: 600;
+  }
+}

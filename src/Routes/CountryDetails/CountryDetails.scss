@@ -1,0 +1,92 @@
+@import '../../style/mixins';
+
+.CountryDetails {
+  font-size: 18px;
+  @include Tablet {
+    display: flex;
+    font-size: 16px;
+  }
+
+  b {
+    font-weight: 600;
+  }
+
+  section {
+    margin-top: 15px;
+  }
+
+  &-Flag {
+    width: 100%;
+    @include Tablet {
+      max-width: 600px;
+    }
+  }
+
+  &-Button {
+    padding-inline: 15px;
+    background-color: var(--color-white);
+    border: none;
+    box-shadow: var(--box-shadow);
+    padding-block: 6px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    min-width: 120px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  &-BackButton {
+    padding-block: 40px;
+  }
+
+  &-BorderCountries {
+    margin-bottom: 40px;
+    display: block;
+    @include Tablet {
+      h3 {
+        font-size: 16px;
+      }
+    }
+
+    button {
+      margin: 10px;
+      min-height: 45px;
+      width: 160px;
+      font-size: 13px;
+      @include Tablet {
+        min-height: initial;
+        width: initial;
+      }
+    }
+  }
+
+  &-RightMenu {
+    @include Tablet {
+      margin-left: 60px;
+      margin-top: 100px;
+    }
+  }
+
+  &-SectionContainer {
+    @include Tablet {
+      display: flex;
+    }
+  }
+
+  &-MainSection {
+    margin-right: 50px;
+  }
+
+  &-SecondarySection {
+    margin-top: 50px;
+    @include Tablet {
+      margin: 0;
+    }
+  }
+}

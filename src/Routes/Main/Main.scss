@@ -1,0 +1,10 @@
+@import '../../style/mixins';
+
+.Main {
+  background-color: var(--color-light-gray);
+  padding-inline: 35px;
+
+  @include Desktop {
+    padding-inline: 45px;
+  }
+}

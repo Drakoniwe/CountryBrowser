@@ -1,0 +1,139 @@
+@import '../../style/mixins';
+
+$input-height: 60px;
+
+.CountryPage {
+  padding-top: 20px;
+
+  &-CardContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    @include Tablet {
+      flex-flow: row wrap;
+      justify-content: space-evenly;
+    }
+  }
+
+  .CountryCard {
+    @include Tablet {
+      height: 350px;
+      width: 270px;
+      margin-right: 30px;
+
+      img {
+        height: 150px;
+        object-fit: cover;
+      }
+    }
+  }
+
+  &-Input {
+    position: relative;
+    width: 100%;
+
+    @include Tablet {
+      width: 45%;
+    }
+
+    input {
+      width: 100%;
+      height: $input-height;
+      box-shadow: var(--box-shadow);
+      border: none;
+      padding-left: 90px;
+      box-sizing: border-box;
+      border-radius: 5px;
+
+      &::placeholder {
+        font-weight: 500;
+        color: var(--color-gray);
+        font-size: 15px;
+      }
+    }
+
+    &::before {
+      content: url('../../media/magnifying-glass.svg');
+      width: 20px;
+      height: 20px;
+      display: inline-block;
+      position: absolute;
+      z-index: 1;
+      margin-top: 20px;
+      margin-left: 40px;
+    }
+  }
+
+  &-Select {
+    &__control {
+      max-width: 60%;
+      margin-top: 40px;
+      @include Tablet {
+        margin: 0;
+        max-width: 100%;
+        min-width: 200px;
+      }
+    }
+
+    &__placeholder {
+      color: var(--color-dark-blue) !important;
+      font-weight: 600;
+    }
+
+    &__indicator-separator {
+      display: none;
+    }
+
+    &__option {
+      font-weight: 600;
+    }
+
+    &__single-value {
+      font-weight: 600;
+    }
+  }
+
+  &-Sort {
+    background: var(--color-light-gray);
+    border: none;
+    font-size: 18px;
+    padding: 0;
+    display: block;
+    margin-block: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+
+    &::after {
+      content: '👍';
+    }
+
+    &.__sorted {
+      color: var(--color-dark-blue);
+
+      &::after {
+        content: '👎';
+      }
+    }
+  }
+
+  &-RemoveFilter {
+    background: var(--color-light-gray);
+    margin-top: 20px;
+    border: none;
+    padding: 0;
+    font-size: 16px;
+    font-weight: bold;
+    display: block;
+    cursor: pointer;
+  }
+
+  &-InputContainer {
+    display: flex;
+    flex-direction: column;
+    @include Tablet {
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+    }
+  }
+}
