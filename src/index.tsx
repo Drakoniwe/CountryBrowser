@@ -18,7 +18,8 @@ const router = createBrowserRouter(
       <Route index element={<CountryPage />} />
       <Route path="CountryDetails/:countryId" element={<CountryDetails />} />
     </Route>
-  )
+  ),
+  { basename: '/CountryBrowser' }
 )
 
 const root = ReactDOM.createRoot(document.getElementById('root') as HTMLElement)
