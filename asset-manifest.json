@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/CountryBrowser/)/static/css/main.cd3e9600.css",
+    "main.js": "/CountryBrowser/)/static/js/main.cfdabf86.js",
+    "static/media/magnifying-glass.svg": "/CountryBrowser/)/static/media/magnifying-glass.5f459669ebc96de55835.svg",
+    "index.html": "/CountryBrowser/)/index.html",
+    "main.cd3e9600.css.map": "/CountryBrowser/)/static/css/main.cd3e9600.css.map",
+    "main.cfdabf86.js.map": "/CountryBrowser/)/static/js/main.cfdabf86.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cd3e9600.css",
+    "static/js/main.cfdabf86.js"
+  ]
+}
